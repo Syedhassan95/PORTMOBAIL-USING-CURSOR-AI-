@@ -19,7 +19,7 @@ const Home = () => {
         </button>
       </div>
       <div>
-      <img className="rounded-full w-96 h-96 border-4 border-indigo-200 border-y-indigo-500 hover:scale-150 t transition-transform transition-gpu hover:border-4  border-x-blue-500 hover:shadow-[4px_0_8px_rgba(0,0,0,0.3),-4px_0_8px_rgba(0,0,0,0.3)] hover:shadow-blue-500" src={homeImg} alt=""  data-aos = "fade-left"/>
+      <img className="rounded-full w-96  border-4 border-indigo-200 border-y-indigo-500 hover:scale-150 t transition-transform transition-gpu hover:border-4  border-x-blue-500 hover:shadow-[4px_0_8px_rgba(0,0,0,0.3),-4px_0_8px_rgba(0,0,0,0.3)] hover:shadow-blue-500" src={homeImg} alt=""  data-aos = "fade-left"/>
       </div>
     </div>
   );
