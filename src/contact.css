@@ -1,0 +1,60 @@
+/*
+  Based on TailwindCSS recommendations,
+  consider using classes instead of the `@apply` directive
+  @see https://tailwindcss.com/docs/reusing-styles#avoiding-premature-abstraction
+*/
+.contact__container {
+    @apply grid-cols-[4fr_8fr] mt-14;
+  }
+
+  .contact__title {
+    @apply text-[length:var(--h3-font-size)] font-[number:var(--weight-600)] mb-4;
+  }
+  .contact__description {
+    @apply text-[length:var(--small-font-size)] leading-[1.6];
+  }
+  .contact__description,
+  .contact__info .info__item {
+    @apply mb-5;
+  }
+  .contact__info .info__item {
+    @apply flex items-center gap-x-4;
+  }
+  .contact__info .info__icon {
+    @apply text-[color:var(text-white-100)] text-[length:var(--h2-font-size)];
+  }
+  .contact__info .info__title {
+    @apply text-[length:var(--small-font-size)];
+  }
+  .contact__info .info__desc {
+    @apply text-[length:var(--small-font-size)] font-[number:var(--weight-500)];
+    font-family: var(--body-font);
+  }
+  .contact__socials {
+    @apply flex gap-x-4;
+  }
+  .contact__socials-link {
+    @apply bg-[color:var(--container-color)] text-[color:var(--title-color)] w-10 h-10 text-center leading-[44px] transition-all duration-[0.3s] ease-[ease] rounded-[50%] hover:bg-[color:var(--first-color)] hover:text-[color:var(--text-white)];
+  }
+  .form__input-group {
+    @apply grid grid-cols-[repeat(3,1fr)] gap-x-[30px];
+  }
+  .form__input-div {
+    @apply mb-[30px];
+  }
+  .form__control {
+    @apply border border-[color:var(--container-color)] bg-[color:var(--container-color)] text-[color:var(--title-color)] w-full text-[length:var(--small-font-size)] px-6 py-3 rounded-[30px] border-solid focus:border-[color:var(--first-color)];
+  }
+  .textarea {
+    @apply resize-none h-40;
+  }
+  .contact__button-icon {
+    @apply text-[length:var(--h3-font-size)] leading-[60px];
+  }
+  .button {
+    @apply cursor-pointer text-[color:var(--first-color)] hover:scale-[1.02]
+  }
+  .section__by span {
+    @apply text-[color:var(--first-color)];
+  }
+  
