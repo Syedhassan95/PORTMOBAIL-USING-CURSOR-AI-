@@ -14,7 +14,7 @@ import { FiSend } from 'react-icons/fi'
 import './contact.css'
 const Contact = () => {
   return (
-    <section className="contact section mb-10">
+    <section className="contact section mb-10 ml-24">
        {/* <h2 className="section__title" data-aos="fade-down">
          Get In<span> Touch</span>
        </h2> */}
@@ -44,7 +44,11 @@ const Contact = () => {
                 <span className="info__title">Call me</span>
                 <h4 className="info__desc">9588634228</h4>
               </div>
-            </div>
+              </div>
+              <button className='button text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 w-44 rounded-full'>Send Message
+            <span className="button__icon contact__button-icon text-white ">
+            </span>
+          </button>
           </div>
 {/* 
           <div className="contact__socials">
@@ -67,7 +71,7 @@ const Contact = () => {
 
         </div>
 
-        <form className="contact form" data-aos="fade-left">
+        {/* <form className="contact form" data-aos="fade-left">
 
           <div className="form__input-group border-white">
             <div className="form__input-div text-white">
@@ -91,7 +95,7 @@ const Contact = () => {
             <span className="button__icon contact__button-icon text-white ">
             </span>
           </button> }
-        </form>
+        </form> */}
         
 {/* 
         <button className='bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 ... w-44 ' > send message</button> */}
