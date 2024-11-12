@@ -45,10 +45,10 @@ const Contact = () => {
                 <h4 className="info__desc">9588634228</h4>
               </div>
               </div>
-              <button className='button text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 w-44 rounded-full'>Send Message
+              {/* <button className='button text-white bg-violet-500 hover:bg-violet-600 active:bg-violet-700 focus:outline-none focus:ring focus:ring-violet-300 w-44 rounded-full'>Send Message
             <span className="button__icon contact__button-icon text-white ">
             </span>
-          </button>
+          </button> */}
           </div>
 {/* 
           <div className="contact__socials">
