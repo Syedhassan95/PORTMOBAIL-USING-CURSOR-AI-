@@ -19,12 +19,15 @@ const Projects = () => {
         main=""
         />
 
-        
         <ProjectCard 
           title="Cricket Score Game"
            main=""
         />
       
+        < ProjectCard
+          title="Portfolio Web With Cursor Ai"
+          main="" 
+          />
       </div>
     </div>
   );
