@@ -4,7 +4,7 @@ const Projects = () => {
   return (
     <div id="Projects" className="p-10 md:p-24 text-white ">
       <h1 className="text-2xl md:text-4xl text-white font-bold">Projects</h1>
-      <div className="py-12 px-8 flex flex-wrap gap-5 m-14"  data-aos = "fade-left">
+      <div className="py-12 px-8 flex flex-wrap gap-5"  data-aos = "fade-left">
          <ProjectCard
           title="Myntra Clone"
           main=""
@@ -14,20 +14,15 @@ const Projects = () => {
            title="Todo App"
          main=""
          />
-       <ProjectCard
+         <ProjectCard
           title="Portfolio"
-        main=""
+          main=""
         />
 
-        <ProjectCard 
+         <ProjectCard
           title="Cricket Score Game"
-           main=""
+          main=""
         />
-      
-        < ProjectCard
-          title="Portfolio Web With Cursor Ai"
-          main="" 
-          />
       </div>
     </div>
   );
